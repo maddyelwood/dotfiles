@@ -15,7 +15,7 @@ unlink() {
 # ./install.sh link
 # ./install.sh unlink
 
-if [[ $# -ne 1]] ; then
+if [[ $# -ne 1 ]] ; then
     echo "Usage: $0 (link|unlink)"
     exit 1
 fi
